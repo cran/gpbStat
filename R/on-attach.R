@@ -1,6 +1,6 @@
 
 
 .onAttach <- function(...){
-  packageStartupMessage("Authors Nandan Patil and Lakshmi Gangavati")
+  packageStartupMessage("Authors Nandan Patil and Lakshmi Gangavati.")
 
 }
