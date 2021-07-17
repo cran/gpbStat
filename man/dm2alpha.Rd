@@ -5,12 +5,12 @@
 \alias{dm2alpha}
 \title{Diallel Method 2 data in Alpha Lattice.}
 \format{
-A data frame for Diallel analysis Method 2 containing four variables of 105 crosses and 15 parents.
+A data frame for Diallel analysis Method 2 containing 105 crosses and 15 parents.
 \describe{
- \item{rep}{four replications}
- \item{blk}{twelve blocks}
- \item{parent1}{five inbred genotype}
- \item{parent2}{three inbred genotype}
+ \item{replication}{two replications}
+ \item{block}{twelve blocks}
+ \item{parent1}{fifteen inbred genotype}
+ \item{parent2}{fifteen inbred genotype}
  \item{TW}{data for test weight}
 
 }
@@ -22,7 +22,7 @@ data(dm2alpha)
 The Diallel Method 2 data laid out in Alpha Lattice Design.
 }
 \examples{
- result2 =  dm2(dm2alpha, rep, parent1, parent2, TW, blk)
+ result2 =  dm2(dm2alpha, replication, parent1, parent2, TW, block)
 }
 \seealso{
 \code{\link{alphaltcchk}}

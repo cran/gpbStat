@@ -8,11 +8,10 @@
 #' @format A data frame of five variables of 15 crosses derived from five lines and three testers.
 #' \describe{
 #'  \item{replication}{four replications}
-#'  \item{block}{ten blocks}
+#'  \item{block}{five blocks}
 #'  \item{line}{five inbred genotype}
 #'  \item{tester}{three inbred genotype}
 #'  \item{yield}{trait of intrest}
-#'
 #' }
 #'
 #'@seealso

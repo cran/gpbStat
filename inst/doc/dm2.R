@@ -31,8 +31,8 @@ data(dm2alpha)
 # View the structure of dataframe. 
 str(dm2alpha)
 
-# Conduct Line x Tester analysis
-result1 = dm2(dm2alpha, rep, parent1, parent2, TW, blk)
+# Conduct Diallel Analysis
+result1 = dm2(dm2alpha, replication, parent1, parent2, TW, block)
 
 # View the output
 result1

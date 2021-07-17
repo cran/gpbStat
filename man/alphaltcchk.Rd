@@ -11,6 +11,7 @@ A dataframe of six variables.
  \item{block}{six blocks}
  \item{line}{five lines}
  \item{tester}{three testers}
+ \item{check}{three check}
  \item{yield}{trait of intrest}
 }
 }

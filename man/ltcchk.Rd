@@ -59,7 +59,7 @@ Kempthorne, O. (1957), Introduction to Genetic Statistics. John Wiley and Sons, 
 Singh, R. K. and Chaudhary, B. D. (1977). Biometrical Methods in Quantitative Genetic Analysis. Kalyani Publishers, New Delhi.
 }
 \seealso{
-\code{\link[gpbStat]{ltc}}
+\code{\link[gpbStat]{ltc}, \link[gpbStat]{ltcchk}}
 }
 \author{
 Nandan Patil

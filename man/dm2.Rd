@@ -43,7 +43,7 @@ result1
 #Diallel Method 2 analysis containing only crosses in Alpha Lattice
 library(gpbStat)
 data(dm2alpha)
-result2 =  dm2(dm2alpha, Rep, parent1, parent2, TW, blk)
+result2 =  dm2(dm2alpha, replication, parent1, parent2, TW, block)
 result2
 
 # Save results to csv file

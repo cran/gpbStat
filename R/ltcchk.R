@@ -32,7 +32,7 @@
 #'              , 468-472.
 #' Singh, R. K. and Chaudhary, B. D. (1977). Biometrical Methods in Quantitative Genetic Analysis. Kalyani Publishers, New Delhi.
 #'
-#'@seealso \code{\link[gpbStat]{ltc}}
+#'@seealso \code{\link[gpbStat]{ltc}, \link[gpbStat]{ltcchk}}
 #'
 #'
 #' @import stats
