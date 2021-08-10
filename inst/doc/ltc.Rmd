@@ -18,7 +18,7 @@ The function `ltc` conducts Line x Tester analysis when the data contains only *
 
 ## Example: Analyzing Line x Tester data (crosses) laid out in Alpha Lattice design.
 
-```{r setup}
+```{r}
 # Load the package
 library(gpbStat)
 

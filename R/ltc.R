@@ -8,7 +8,7 @@
 #' @param line line
 #' @param tester tester
 #' @param y trait of interest
-#' @param block block (for alpha lattice only)
+#' @param block block (for alpha lattice design only)
 #'
 #' @note The block variable is inserted at the last if the experimental design is Alpha Lattice. For RCBD no need to have block factor.
 #'
@@ -27,7 +27,7 @@
 #'              , 468-472.
 #' Singh, R. K. and Chaudhary, B. D. (1977). Biometrical Methods in Quantitative Genetic Analysis. Kalyani Publishers, New Delhi.
 #'
-#'@seealso \code{\link[gpbStat]{ltcchk}}
+#'@seealso \code{\link[gpbStat]{ltcchk}, \link[gpbStat]{dm2}, \link[gpbStat]{ltcmt}}
 #'
 #' @import stats
 #' @import graphics
@@ -47,9 +47,7 @@
 #' }
 
 
-ltc <-
-  function (data, replication, line, tester, y, block)
-    {
+ltc = function (data, replication, line, tester, y, block){
 
     if(!missing(block)){
 

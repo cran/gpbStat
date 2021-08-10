@@ -4,18 +4,18 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
-## -----------------------------------------------------------------------------
+## ----example------------------------------------------------------------------
 # Load the package
 library(gpbStat)
 
 #Load the dataset
-data("alphaltc")
+data("alphaltcmt")
 
 # View the structure of dataframe. 
-str(alphaltc)
+str(alphaltcmt)
 
 # Conduct Line x Tester analysis
-result = ltc(alphaltc, replication, line, tester, yield, block)
+result  = ltcmt(alphaltcmt, replication, line, tester, alphaltcmt[,5:7], block)
 
 # View the output
 result
@@ -25,13 +25,13 @@ result
 library(gpbStat)
 
 #Load the dataset
-data("rcbdltc")
+data("rcbdltcmt")
 
 # View the structure of dataframe. 
 str(rcbdltc)
 
 # Conduct Line x Tester analysis
-result1 = ltc(rcbdltc, replication, line, tester, yield)
+result1 = ltcmt(rcbdltcmt, replication, line, tester, rcbdltcmt[,4:5])
 
 # View the output
 result1

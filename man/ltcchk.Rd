@@ -19,7 +19,7 @@ ltcchk(data, replication, line, tester, check, y, block)
 
 \item{y}{trait of interest}
 
-\item{block}{block variable (for alpha lattice only)}
+\item{block}{block variable (for alpha lattice design only)}
 }
 \value{
 \item{\code{Overall ANOVA}}{ANOVA with all the factors.}\item{\code{Coefficient of Variation}}{ANOVA with all the factors.}\item{\code{Genetic Variance}}{Phenotypic
@@ -59,7 +59,7 @@ Kempthorne, O. (1957), Introduction to Genetic Statistics. John Wiley and Sons, 
 Singh, R. K. and Chaudhary, B. D. (1977). Biometrical Methods in Quantitative Genetic Analysis. Kalyani Publishers, New Delhi.
 }
 \seealso{
-\code{\link[gpbStat]{ltc}, \link[gpbStat]{ltcchk}}
+\code{\link[gpbStat]{ltc}, \link[gpbStat]{dm2}, \link[gpbStat]{ltcmt}}
 }
 \author{
 Nandan Patil

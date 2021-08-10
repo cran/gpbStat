@@ -1,9 +1,8 @@
 ---
-title: "ltc: Analysing Line x Tester data containing only crosses."
+title: "ltcmt: Analysing Line x Tester data containing only crosses for multiple traits."
 output: rmarkdown::html_vignette
-author: Nandan Patil 
 vignette: >
-  %\VignetteIndexEntry{ltc}
+  %\VignetteIndexEntry{ltcmt}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -14,22 +13,24 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-The function `ltc` conducts Line x Tester analysis when the data contains only *crosses*. The experimental design may be RCBD or Alpha lattice design. 
+
+The function `ltcmt` conducts Line x Tester analysis for multiple traits when the data contains only *crosses*. The experimental design may be RCBD or Alpha lattice design. 
 
 ## Example: Analyzing Line x Tester data (crosses) laid out in Alpha Lattice design.
 
-```{r}
+
+```{r example}
 # Load the package
 library(gpbStat)
 
 #Load the dataset
-data("alphaltc")
+data("alphaltcmt")
 
 # View the structure of dataframe. 
-str(alphaltc)
+str(alphaltcmt)
 
 # Conduct Line x Tester analysis
-result = ltc(alphaltc, replication, line, tester, yield, block)
+result  = ltcmt(alphaltcmt, replication, line, tester, alphaltcmt[,5:7], block)
 
 # View the output
 result
@@ -42,15 +43,14 @@ result
 library(gpbStat)
 
 #Load the dataset
-data("rcbdltc")
+data("rcbdltcmt")
 
 # View the structure of dataframe. 
 str(rcbdltc)
 
 # Conduct Line x Tester analysis
-result1 = ltc(rcbdltc, replication, line, tester, yield)
+result1 = ltcmt(rcbdltcmt, replication, line, tester, rcbdltcmt[,4:5])
 
 # View the output
 result1
 ```
-
