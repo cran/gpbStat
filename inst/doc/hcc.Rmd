@@ -1,0 +1,26 @@
+---
+title: "hcc: Estimation of Standard Heterosis "
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{hcc}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Function ```hcc``` calculates Heterosis between experimental genotypes and commercial checks. 
+
+Example: Estimation of Standard Heterosis between maize hybrid and checks
+```{r setup}
+library(gpbStat)
+data("hybrid")
+data('check')
+res = hcc(hybrid, check)
+res
+```
