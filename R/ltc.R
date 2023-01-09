@@ -47,7 +47,9 @@
 #' }
 
 
-ltc = function (data, replication, line, tester, y, block){
+ltc <-
+  function (data, replication, line, tester, y, block)
+    {
 
     if(!missing(block)){
 

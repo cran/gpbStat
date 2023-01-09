@@ -1,7 +1,7 @@
 Package: gpbStat
 Type: Package
 Title: Comprehensive Statistical Analysis of Plant Breeding Experiments
-Version: 0.3.5
+Version: 0.4.0
 Authors@R: 
     c(
         person(
@@ -23,18 +23,16 @@ Description: Performs statistical data analysis of various Plant Breeding experi
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-LazyLoad: true
 Depends: R (>= 3.5.0)
-Date: 2021-10-30
+Date: 2023-01-07
 URL: https://github.com/nandp1/gpbStat/
 BugReports: https://github.com/nandp1/gpbStat/issues
-RoxygenNote: 7.1.2
-Imports: stats, utils, data.table, dplyr, magrittr
-Suggests: testthat, knitr, rmarkdown, reshape2
+RoxygenNote: 7.2.3
+Suggests: testthat, knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-10-30 13:48:36 UTC; ACER
+Packaged: 2023-01-09 05:35:16 UTC; FCI
 Author: Nandan Patil [cre, aut] (<https://orcid.org/0000-0003-0100-9931>),
   Lakshmi R. Gangavati [aut, ctb]
 Repository: CRAN
-Date/Publication: 2021-10-30 14:30:02 UTC
+Date/Publication: 2023-01-09 08:10:08 UTC
