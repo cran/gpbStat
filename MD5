@@ -1,4 +1,4 @@
-248c5d546f6832fc19de109dab5e0a5c *DESCRIPTION
+1b7479fca780e7fc6032ad03a9558496 *DESCRIPTION
 7121f7a48d81b8358d243ad15364e5a6 *NAMESPACE
 7d79d92a288ce9aa862132a16a58b4a8 *R/alphaltc.R
 f5d06939c984388b89bd898a9a1fc19c *R/alphaltcchk.R
@@ -9,7 +9,7 @@ a69cd1b543e200a343e154227b7bfbec *R/datrdti.R
 c0f9482466e81976cfb42fecbf00d561 *R/dm2.R
 446a0d50d5cc4c6196fe12ef62355610 *R/dm2alpha.R
 adea0d42d6ce407e393c39c2758fab9b *R/dm2rcbd.R
-b300c28891f3e9fd47d011a42e9dd976 *R/dti.R
+382a71e2b65724904eba0203b416efda *R/dti.R
 5da3691e1f5e70c2a533b8dcff315201 *R/ltc.R
 d24da494f398eb33d1fbe5648be52ed4 *R/ltcchk.R
 2713fef29bd9037bddea8953745c6296 *R/ltcmt.R
@@ -40,7 +40,7 @@ b0ca3f6fc05d6cc3ab04f0b8a89aca22 *inst/doc/dm2.Rmd
 c88cd07c14490cb562e0c348e6f6134e *inst/doc/dm2.html
 a8e1ef0a24fb7df578fc9766e9f46d36 *inst/doc/dti.R
 ebc17ddb90ad5e26c9063f49e7f79a00 *inst/doc/dti.Rmd
-9d246f72926c4720d437fb9c61890132 *inst/doc/dti.html
+a49575e2bda75b3ba7773061b09782ec *inst/doc/dti.html
 f35ef4371f2fb3d8f66335ec4c5ce6af *inst/doc/ltc.R
 e6dc69fbf3c737bfa3a8ae182bf557a4 *inst/doc/ltc.Rmd
 e24bca4d3582b0a06d46451e40f628b9 *inst/doc/ltc.html
@@ -62,7 +62,7 @@ e9f58236b9a3c4dc95fa2cf2f59748a1 *man/datrdti.Rd
 7a2b89a03facbc43eb6ad107b4c61d0b *man/dm2.Rd
 5afefaf1c8d09ca888cab5bdfbb0a608 *man/dm2alpha.Rd
 c000dee92ab770248959861307d3e3df *man/dm2rcbd.Rd
-8a2f38c00e809fed59c7c871f2ad766b *man/dti.Rd
+4bbd63956132388417b45c845a58ac37 *man/dti.Rd
 cd08d6c21882840ed83dec2463a87743 *man/ltc.Rd
 eb6483c695b1ccb7db3e978c7df6fff4 *man/ltcchk.Rd
 281a06d0c517cfe8731937ef96c01a78 *man/ltcmt.Rd
